@@ -22,7 +22,7 @@ for i in range(len(data)):
         derivative.append(data[i]-data[i-1])
 
 for i in range(len(derivative)):
-    print("+ ", derivative[i])
+    print("+ ", derivative[i], " ", derivative[i]/data[i]*100, "% from cases")
 
 s /= len(data)
 s = math.sqrt(s)
